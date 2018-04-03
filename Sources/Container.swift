@@ -71,6 +71,7 @@ extension Container: Resolver {
     public func require<T>(_ type: T.Type, tag: String? = nil) -> T? {
         let key = FactoryKey(factoryType: type, tag: tag)
         guard let entry = factories[key] as? CachingFactory<T> else {
+            log("No factory for key: \(key)")
             return nil
         }
         if let instance = entry.cachedInstance {
