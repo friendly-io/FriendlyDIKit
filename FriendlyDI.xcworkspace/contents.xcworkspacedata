@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FriendlyDIKit/FriendlyDIKit.xcodeproj">
+      location = "group:FriendlyDIKit.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/spsadmin/work/Frameworks/FriendlyDIKit.playground">
+      location = "group:FriendlyDIKit.playground">
    </FileRef>
 </Workspace>

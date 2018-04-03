@@ -51,7 +51,7 @@
 		F9A89FA720734D4C00342A7B /* Info-MacOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-MacOS.plist"; sourceTree = "<group>"; };
 		F9A89FA820734D4C00342A7B /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		F9A89FAC20734EB700342A7B /* MyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTest.swift; sourceTree = "<group>"; };
-		F9A89FB02073500E00342A7B /* FriendlyDI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FriendlyDI.podspec; sourceTree = "<group>"; };
+		F9A89FB02073500E00342A7B /* FriendlyDIKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FriendlyDIKit.podspec; sourceTree = "<group>"; };
 		F9A89FB12073502400342A7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F9A89FB22073503500342A7B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F9A89FB72073532A00342A7B /* FriendlyDIKit iOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FriendlyDIKit iOSExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +92,7 @@
 		F9408E0C207354B60068252A /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				F9A89FB02073500E00342A7B /* FriendlyDI.podspec */,
+				F9A89FB02073500E00342A7B /* FriendlyDIKit.podspec */,
 				F9A89FB12073502400342A7B /* README.md */,
 				F9A89FB22073503500342A7B /* LICENSE */,
 			);
