@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.source_files = "Sources/**/*.{h,swift}"
 
-    #s.dependency 'FriendlyDIKit'
+    s.dependency 'NSLogger'
+    s.dependency 'NSLogger/Swift'
 end
