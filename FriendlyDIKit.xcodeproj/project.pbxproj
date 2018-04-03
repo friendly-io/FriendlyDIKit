@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9007983207406DA00326E93 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900797C207406DA00326E93 /* Assembler.swift */; };
+		F9007984207406DA00326E93 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900797C207406DA00326E93 /* Assembler.swift */; };
+		F9007985207406DA00326E93 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900797D207406DA00326E93 /* Assembly.swift */; };
+		F9007986207406DA00326E93 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900797D207406DA00326E93 /* Assembly.swift */; };
+		F9007987207406DA00326E93 /* CachingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900797E207406DA00326E93 /* CachingFactory.swift */; };
+		F9007988207406DA00326E93 /* CachingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900797E207406DA00326E93 /* CachingFactory.swift */; };
+		F9007989207406DA00326E93 /* Requirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900797F207406DA00326E93 /* Requirements.swift */; };
+		F900798A207406DA00326E93 /* Requirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900797F207406DA00326E93 /* Requirements.swift */; };
+		F900798B207406DA00326E93 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9007980207406DA00326E93 /* Container.swift */; };
+		F900798C207406DA00326E93 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9007980207406DA00326E93 /* Container.swift */; };
+		F900798D207406DA00326E93 /* FactoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9007981207406DA00326E93 /* FactoryKey.swift */; };
+		F900798E207406DA00326E93 /* FactoryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9007981207406DA00326E93 /* FactoryKey.swift */; };
+		F900798F207406DA00326E93 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9007982207406DA00326E93 /* Resolver.swift */; };
+		F9007990207406DA00326E93 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9007982207406DA00326E93 /* Resolver.swift */; };
 		F9A89F9520734CC500342A7B /* FriendlyDIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A89F9320734CC500342A7B /* FriendlyDIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A89FAB20734E7000342A7B /* FriendlyDIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A89F9320734CC500342A7B /* FriendlyDIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A89FAD20734EB700342A7B /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A89FAC20734EB700342A7B /* MyTest.swift */; };
@@ -45,6 +59,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F900797C207406DA00326E93 /* Assembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
+		F900797D207406DA00326E93 /* Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		F900797E207406DA00326E93 /* CachingFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachingFactory.swift; sourceTree = "<group>"; };
+		F900797F207406DA00326E93 /* Requirements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requirements.swift; sourceTree = "<group>"; };
+		F9007980207406DA00326E93 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		F9007981207406DA00326E93 /* FactoryKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryKey.swift; sourceTree = "<group>"; };
+		F9007982207406DA00326E93 /* Resolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
 		F9A89F9020734CC500342A7B /* FriendlyDIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FriendlyDIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A89F9320734CC500342A7B /* FriendlyDIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendlyDIKit.h; sourceTree = "<group>"; };
 		F9A89F9E20734CDC00342A7B /* FriendlyDIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FriendlyDIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +144,13 @@
 			isa = PBXGroup;
 			children = (
 				F9A89FAC20734EB700342A7B /* MyTest.swift */,
+				F900797C207406DA00326E93 /* Assembler.swift */,
+				F900797D207406DA00326E93 /* Assembly.swift */,
+				F900797E207406DA00326E93 /* CachingFactory.swift */,
+				F9007980207406DA00326E93 /* Container.swift */,
+				F9007981207406DA00326E93 /* FactoryKey.swift */,
+				F900797F207406DA00326E93 /* Requirements.swift */,
+				F9007982207406DA00326E93 /* Resolver.swift */,
 				F9A89F9320734CC500342A7B /* FriendlyDIKit.h */,
 				F9A89FA820734D4C00342A7B /* Info-iOS.plist */,
 				F9A89FA720734D4C00342A7B /* Info-MacOS.plist */,
@@ -294,7 +322,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9007987207406DA00326E93 /* CachingFactory.swift in Sources */,
+				F900798B207406DA00326E93 /* Container.swift in Sources */,
+				F900798D207406DA00326E93 /* FactoryKey.swift in Sources */,
+				F900798F207406DA00326E93 /* Resolver.swift in Sources */,
+				F9007983207406DA00326E93 /* Assembler.swift in Sources */,
+				F9007985207406DA00326E93 /* Assembly.swift in Sources */,
 				F9A89FAD20734EB700342A7B /* MyTest.swift in Sources */,
+				F9007989207406DA00326E93 /* Requirements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +337,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9007988207406DA00326E93 /* CachingFactory.swift in Sources */,
+				F900798C207406DA00326E93 /* Container.swift in Sources */,
+				F900798E207406DA00326E93 /* FactoryKey.swift in Sources */,
+				F9007990207406DA00326E93 /* Resolver.swift in Sources */,
+				F9007984207406DA00326E93 /* Assembler.swift in Sources */,
+				F9007986207406DA00326E93 /* Assembly.swift in Sources */,
 				F9A89FAE20734EB700342A7B /* MyTest.swift in Sources */,
+				F900798A207406DA00326E93 /* Requirements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
