@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     #s.source        = { :git => "https://github.com/friendly-io/FriendlyDIKit.git" }
     s.source        = { :git => "https://github.com/friendly-io/FriendlyDIKit.git", :tag => s.version }
     s.ios.deployment_target = "9.0"
-    s.macos.deployment_target = "10.14"
+    s.macos.deployment_target = "10.13"
 
     s.requires_arc = true
     s.source_files = "Sources/**/*.{h,swift}"
