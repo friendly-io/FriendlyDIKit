@@ -21,7 +21,7 @@ end
 target 'FriendlyDIKit MacOS' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-  platform :MacOS, "10.10"
+  platform :macos, "10.10"
 
   # Pods for FriendlyDIKit MacOS
   pod "NSLogger"
