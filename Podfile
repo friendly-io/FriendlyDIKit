@@ -21,6 +21,7 @@ end
 
 target 'FriendlyDIKit MacOS' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  platform :macos, "10.10"
   use_frameworks!
   
 
