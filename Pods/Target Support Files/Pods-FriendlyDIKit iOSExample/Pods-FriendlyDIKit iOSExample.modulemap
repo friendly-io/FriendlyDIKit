@@ -1,0 +1,6 @@
+framework module Pods_FriendlyDIKit_iOSExample {
+  umbrella header "Pods-FriendlyDIKit iOSExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

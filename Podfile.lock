@@ -1,0 +1,21 @@
+PODS:
+  - NSLogger (1.9.7):
+    - NSLogger/ObjC (= 1.9.7)
+  - NSLogger/ObjC (1.9.7)
+  - NSLogger/Swift (1.9.7):
+    - NSLogger/ObjC
+
+DEPENDENCIES:
+  - NSLogger
+  - NSLogger/Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NSLogger
+
+SPEC CHECKSUMS:
+  NSLogger: cf3013a4fba189f631f07e6c3d5b8ce2b209654b
+
+PODFILE CHECKSUM: 1b63c5c2b1b82c473cb49ee7ec067be114fe13ee
+
+COCOAPODS: 1.5.3
