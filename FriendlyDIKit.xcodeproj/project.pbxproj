@@ -276,7 +276,6 @@
 				F9A89FB42073532A00342A7B /* Frameworks */,
 				F9A89FB52073532A00342A7B /* Resources */,
 				F9A89FCD2073535300342A7B /* Embed Frameworks */,
-				126F211BADA9F8C9170235E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -358,24 +357,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		126F211BADA9F8C9170235E2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FriendlyDIKit iOSExample/Pods-FriendlyDIKit iOSExample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/NSLogger-iOS/NSLogger.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSLogger.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendlyDIKit iOSExample/Pods-FriendlyDIKit iOSExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		347DA106D7E2617E5F4781CA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

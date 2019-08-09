@@ -1,6 +1,0 @@
-framework module NSLogger {
-  umbrella header "NSLogger-macOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
