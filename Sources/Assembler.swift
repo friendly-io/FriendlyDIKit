@@ -7,13 +7,12 @@
 //
 
 import Foundation
-//import NSLogger
 
 public final class Assembler {
     private let container: Container
     public var resolver: Resolver { return container }
     
-    public init(withAssemblies assemblies: [Assembly], log: @escaping (String) -> Void = { msg in /*Logger.shared.log(.app, .verbose, msg)*/ NSLog("%@",msg) }) {
+    public init(withAssemblies assemblies: [Assembly], log: @escaping (String) -> Void = { msg in NSLog("%@",msg) }) {
         self.container = Container(log: log)
         run(assemblies: assemblies)
     }
