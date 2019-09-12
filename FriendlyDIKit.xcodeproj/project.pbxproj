@@ -76,6 +76,7 @@
 		F9007980207406DA00326E93 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		F9007981207406DA00326E93 /* FactoryKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryKey.swift; sourceTree = "<group>"; };
 		F9007982207406DA00326E93 /* Resolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		F9A269A5232A0320008DFAF5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		F9A89F9020734CC500342A7B /* FriendlyDIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FriendlyDIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A89F9320734CC500342A7B /* FriendlyDIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendlyDIKit.h; sourceTree = "<group>"; };
 		F9A89F9E20734CDC00342A7B /* FriendlyDIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FriendlyDIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +152,7 @@
 				F9A89FB02073500E00342A7B /* FriendlyDIKit.podspec */,
 				F9A89FB12073502400342A7B /* README.md */,
 				F9A89FB22073503500342A7B /* LICENSE */,
+				F9A269A5232A0320008DFAF5 /* Package.swift */,
 			);
 			name = Metadata;
 			sourceTree = "<group>";
