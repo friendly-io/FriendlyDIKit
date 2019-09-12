@@ -1,9 +1,4 @@
-//
-//  Package.swift
-//  FriendlyDIKit
-//
-//  Created by spsadmin on 9/11/19.
-//
+// swift-tools-version:5.0
 
 import PackageDescription
 
